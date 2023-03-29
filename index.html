@@ -123,15 +123,18 @@
           <h1>Contact</h1>
           <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
         </div>
-        <div class="footer-top-right">
+
+        <form class="footer-top-right" novalidate>
           <input type="text" placeholder="NAME" id="nameInput"/>
-          <input type="email" placeholder="EMAIL" id="email"/>
+          <input type="email" placeholder="EMAIL" class="email"/>
+          <p class="errorMessageEmail">Sorry invalid format here</p>
           <input type="text" placeholder="MESSAGE" id="message">
           <div class="btnSend">
           <button id="sendMessage">SEND MESSAGE</button>
           <div class="underline-green-2"></div>
         </div>
-        </div>
+      </form>
+
       </div>
       <div class="footer-bottom">
         <div class="row-2"></div>

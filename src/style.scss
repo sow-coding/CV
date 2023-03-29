@@ -615,6 +615,21 @@ footer {
     color: #FF6F5B;
 }
 
-
+.succes {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & h1 {
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+                
+        color: #FFFFFF;
+    }
+}
 
 

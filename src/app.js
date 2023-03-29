@@ -20,7 +20,7 @@ overeffect1.addEventListener("mouseover", () => {
         imgUn.classList.remove("over")
         btnsEffect1.classList.remove("btnsDisplayOn")
     })
-})
+});
 
 
 

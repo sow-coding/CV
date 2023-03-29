@@ -8,7 +8,8 @@ const email = document.querySelector(".email")
 const btnForm = document.querySelector("#sendMessage")
 const errorMessageEmail = document.querySelector(".errorMessageEmail")
 const form = document.querySelector(".footer-top-right")
-
+const iconMail = document.querySelector("#iconMail")
+const spanEmail = document.querySelector("#spanEmail")
 
 overeffect1.addEventListener("mouseover", () => {
     imgUn.classList.add("over")
@@ -56,6 +57,4 @@ btnForm.addEventListener("click", () => {
     }
 
 });
-
-
 
